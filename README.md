@@ -28,3 +28,9 @@ Some papers from Google DeepMind, should read in the order.
 ### Graph network
 - [ ] [The Graph Neural Network Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf)
 - [ ] [Few-shot Learning with Graph Neural Networks](https://arxiv.org/pdf/1711.04043.pdf)
+
+### Others
+- [ ] [Large Margin Few-Shot Learning](https://arxiv.org/pdf/1807.02872.pdf)
+- [ ] [Label-Embedding for Image Classification](https://arxiv.org/pdf/1503.08677.pdf)
+- [ ] [Evaluation of Output Embeddings for Fine-Grained Image Classification](https://arxiv.org/pdf/1409.8403.pdf)
+- [ ] [Learning Deep Representations of Fine-Grained Visual Descriptions](https://arxiv.org/pdf/1605.05395.pdf)
