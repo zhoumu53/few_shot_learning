@@ -1,4 +1,4 @@
-There are some papers need to read.
+There are some papers/articles need to read.
 
 ## Keywords:
 - Meta learning
@@ -7,7 +7,8 @@ There are some papers need to read.
 - One-shot learning
 - Zero-shot learning
 
-## To-read list:
+
+## Papers:
 
 ### Siamese network/Triplet network
 - [x] [Siamese Neural Networks for One-Shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
@@ -34,3 +35,10 @@ Some papers from Google DeepMind, should read in the order.
 - [ ] [Label-Embedding for Image Classification](https://arxiv.org/pdf/1503.08677.pdf)
 - [ ] [Evaluation of Output Embeddings for Fine-Grained Image Classification](https://arxiv.org/pdf/1409.8403.pdf)
 - [ ] [Learning Deep Representations of Fine-Grained Visual Descriptions](https://arxiv.org/pdf/1605.05395.pdf)
+- [ ] [Transductive Unbiased Embedding for Zero-Shot Learning](https://arxiv.org/pdf/1803.11320.pdf)
+  - Related articles: [From Zero to Hero: Shaking Up the Field of Zero-shot Learning](https://medium.com/@alitech_2017/from-zero-to-hero-shaking-up-the-field-of-zero-shot-learning-c43208f71332)
+- [ ] [Recent Advances in Zero-shot Recognition](https://arxiv.org/pdf/1710.04837.pdf)
+- [ ] [An embarrassingly simple approach to zero-shot learning](http://proceedings.mlr.press/v37/romera-paredes15.pdf)
+
+## Articles
+- [What Is Zero-Shot Learning?](https://www.analyticsindiamag.com/what-is-zero-shot-learning/)
