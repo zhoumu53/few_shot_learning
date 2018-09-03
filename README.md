@@ -31,6 +31,7 @@ Some papers from Google DeepMind, should read in the order.
 - [ ] [Few-shot Learning with Graph Neural Networks](https://arxiv.org/pdf/1711.04043.pdf)
 
 ### Others
+- [ ] [Feature Generating Networks for Zero-ShsoetenLearning](https://arxiv.org/pdf/1712.00981.pdf) 
 - [ ] [Large Margin Few-Shot Learning](https://arxiv.org/pdf/1807.02872.pdf)
 - [ ] [Label-Embedding for Image Classification](https://arxiv.org/pdf/1503.08677.pdf)
 - [ ] [Evaluation of Output Embeddings for Fine-Grained Image Classification](https://arxiv.org/pdf/1409.8403.pdf)
