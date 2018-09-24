@@ -27,8 +27,11 @@ Some papers from Google DeepMind, should read in the order.
 - [x] [Prototypical Networks for Few-shot Learning](https://arxiv.org/pdf/1703.05175.pdf)
 
 ### Graph network
+#### Papers:
 - [ ] [The Graph Neural Network Model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf)
 - [ ] [Few-shot Learning with Graph Neural Networks](https://arxiv.org/pdf/1711.04043.pdf)
+#### Related articles: 
+- [ ] [GRAPH CONVOLUTIONAL NETWORKS](https://tkipf.github.io/graph-convolutional-networks/)
 
 ### Others
 - [ ] [Feature Generating Networks for Zero-ShsoetenLearning](https://arxiv.org/pdf/1712.00981.pdf) 
