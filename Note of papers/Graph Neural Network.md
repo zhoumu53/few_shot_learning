@@ -11,9 +11,9 @@
 - [浅析图卷积神经网络](https://www.jianshu.com/p/89fbed65cd04?winzoom=1)
 
 ## Graph Neural Networks
-```
-The model is from [this](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf) paper.
-```
+
+The model is from this paper: [The graph neural network model](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf)
+
 Graph neural network model: extends existing neural network methods for processing the data represented in graph domains.
 
 ```

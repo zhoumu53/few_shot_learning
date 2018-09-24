@@ -24,3 +24,9 @@ The survey of zero-shot learning.
   - B.Romera-Paredes and P.H.Torr: [An embarrassingly simple approach to zero-shot learning](http://proceedings.mlr.press/v37/romera-paredes15.pdf). ICML, 2015.
 - LATEM
   - Y.Xian, Z.Akata, G.Sharma, Q.Nguyen, M.Hein, and B.Schiele: [Latent embeddings for zero-shot classification](https://arxiv.org/pdf/1603.08895.pdf). In CVPR, 2016.
+  - Y.Xian, Z.Akata, G.Sharma, Q.Nguyen, M.Hein, and B.Schiele: [Latent embeddings for zero-shot classification](https://arxiv.org/pdf/1603.08895.pdf). In CVPR, 2016.
+  - Y.Xian, Z.Akata, G.Sharma, Q.Nguyen, M.Hein, and B.Schiele: [Latent embeddings for zero-shot classification](https://arxiv.org/pdf/1603.08895.pdf). In CVPR, 2016.
+  
+  
+ ### Some articles
+ - [Recent Advances in Zero-Shot Recognition: Toward data-efficient understanding of visual content](http://www.yugangjiang.info/publication/SPM18-survey.pdf)
