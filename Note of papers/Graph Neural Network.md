@@ -6,7 +6,7 @@
 
 #### Related articles: 
 - [GRAPH CONVOLUTIONAL NETWORKS](https://tkipf.github.io/graph-convolutional-networks/)
-    - [Convolution Network及其变种（反卷积、扩展卷积、因果卷积、图卷积](https://www.cnblogs.com/yangperasd/p/7071657.html)***其中图卷积解释来自上面英文版文章***
+    - [Convolution Network及其变种（反卷积、扩展卷积、因果卷积、图卷积）](https://www.cnblogs.com/yangperasd/p/7071657.html)```其中图卷积解释来自上面英文版文章```
 - [图卷积网络（Graph Convolutional Network）](https://blog.csdn.net/chensi1995/article/details/77232019)
 - [浅析图卷积神经网络](https://www.jianshu.com/p/89fbed65cd04?winzoom=1)
 
@@ -76,11 +76,11 @@ GNN we used 3 blocks each of them composed by 1) a module that computes the adja
 #### Experiments on Mini-ImageNet
 ```
 Architecture: The embedding architecture used for Mini-Imagenet is formed by 4 convolutional layers followed by a fully-connected layer resulting in a 128 dimensional embedding. This light architecture is useful for fast prototyping:
-1f33-conv. layer (64 filters), batch normalization, max pool(2; 2), leaky relug,
-1f33-conv. layer (96 filters), batch normalization, max pool(2; 2), leaky relug,
-1f33-conv. layer (128 filters), batch normalization, max pool(2; 2), leaky relu, dropout(0:5)g,
-1f33-conv. layer (256 filters), batch normalization, max pool(2; 2), leaky relu, dropout(0:5)g,
-1f fc-layer (128 filters), batch normalizationg.
+1x{3x3-conv. layer (64 filters), batch normalization, max pool(2, 2), leaky relu},
+1x{3x3-conv. layer (96 filters), batch normalization, max pool(2, 2), leaky relu},
+1x{3x3-conv. layer (128 filters), batch normalization, max pool(2, 2), leaky relu, dropout(0:5)},
+1x{33-conv. layer (256 filters), batch normalization, max pool(2, 2), leaky relu, dropout(0:5)},
+1x{fc-layer (128 filters), batch normalization}.
 The two dropout layers are useful to avoid overfitting the GNN in Mini-Imagenet dataset. The GNN architecture is similar than for Omniglot, it is formed by 3 blocks.
 ```
 ![graphNN](images/GraphNN/mini-imageNet.jpg)
