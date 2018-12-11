@@ -6,8 +6,10 @@ There are some papers/articles need to read.
 - Few-shot learning
 - One-shot learning
 - Zero-shot learning
+- GAN
+- VAE
 
-# Metric learning
+# Metric learning based approaches
 
 ## Papers:
 ```
@@ -52,7 +54,7 @@ Some papers from Google DeepMind, should read in the order.
 
 
 
-# Meta-Learning: learning to learn
+# Meta-Learning(learning to learn) based approaches
 ```
 These are the methods based on meta learning for few-shot learning.
 ```
@@ -72,3 +74,11 @@ This is the overview of learning to learn written by berkeley AI research.
 This article introduced the meta-learning by animation clearly, one of the best explaination of meta-learning I think.
 ```
 - [x] [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
+
+
+
+# Generative and augmentation-based approaches
+```
+It's a new paper from NIPS 2018, by IBM research AI.
+```
+- [x] [∆-encoder: an effective sample synthesis method for few-shot object recognition](https://arxiv.org/pdf/1806.04734.pdf)
