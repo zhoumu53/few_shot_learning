@@ -75,7 +75,7 @@ This article introduced the meta-learning by animation clearly, one of the best 
 ```
 - [x] [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
 
-
+- [ ][Learning to Compare: Relation Network for Few-Shot Learning(CVPR 2018)](https://arxiv.org/pdf/1711.06025.pdf)
 
 # Generative and augmentation-based approaches
 ```
