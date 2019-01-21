@@ -62,6 +62,7 @@ These are the methods based on meta learning for few-shot learning.
 - [x] [On First-Order Meta-Learning Algorithms](https://arxiv.org/pdf/1803.02999.pdf)
 - [x] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf)
 - [x] [META-LEARNING FOR SEMI-SUPERVISED FEW-SHOT CLASSIFICATION](https://arxiv.org/pdf/1803.00676.pdf)
+- [x] [Meta-Learning with Latent Embedding Optimization](https://arxiv.org/pdf/1807.05960.pdf)
 
 
 ## Articles
@@ -82,3 +83,6 @@ This article introduced the meta-learning by animation clearly, one of the best 
 It's a new paper from NIPS 2018, by IBM research AI.
 ```
 - [x] [∆-encoder: an effective sample synthesis method for few-shot object recognition](https://arxiv.org/pdf/1806.04734.pdf)
+- [x] [MetaGAN: An Adversarial Approach to Few-Shot Learning](http://www.cse.ust.hk/~yqsong/papers/2018-NIPS-MetaGAN-long.pdf)
+    - It's better to read the paper about MAML, Relation Network, DAGAN before.
+- [ ][Data Agumentation Generative Adversarial Networks](https://openreview.net/pdf?id=S1Auv-WRZ)
