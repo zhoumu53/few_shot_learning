@@ -1,3 +1,8 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 # Few-shot Learning with Graph Neural Networks
 
 #### Related papers:
@@ -23,9 +28,7 @@ For graph neural networks models, the goal is to learn a function of signals/fea
 - A representative description of the graph structure in matrix form; typically in the form of an adjacency matrix ***A*** (or some function thereof);
 - A node-level output ***Z*** (an ***N×F*** feature matrix, where ***F*** is the number of output features per node).
 
-Every neural network layer can then be written as a non-linear function: 
-
-$ \H^(l+1) = f(H^(l), A) $, where $ \H^(0) = X $ and $ \H^(L) = Z $
+Every neural network layer can then be written as a non-linear function: $$ \H^(l+1) = f(H^(l), A) $$, where $ \H^(0) = X $ and $ \H^(L) = Z $
 
 
 ### Example
