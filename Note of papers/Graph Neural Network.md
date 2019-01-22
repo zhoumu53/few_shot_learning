@@ -28,12 +28,12 @@ For graph neural networks models, the goal is to learn a function of signals/fea
 - A representative description of the graph structure in matrix form; typically in the form of an adjacency matrix ***A*** (or some function thereof);
 - A node-level output ***Z*** (an ***N×F*** feature matrix, where ***F*** is the number of output features per node).
 
-Every neural network layer can then be written as a non-linear function: $$ \H^(l+1) = f(H^(l), A) $$, where $ \H^(0) = X $ and $ \H^(L) = Z $
+Every neural network layer can then be written as a non-linear function: $$ H^{(l+1)} = f(H^{(l)}, A) $$, where $ H^{(0)} = X $ and $ \H^{(L)} = Z $
 
 
 ### Example
 
-As an example, let‘s consider the following very simple form of a layer-wise propagation rule: $ \f(H^(l), A) =  σ(AH^(l)W^(l)) $, where **W^(l)** is a weight matrix for the **l-th** neural network layer and **σ(⋅)** is a non-linear activation function like the **ReLU**. 
+As an example, let‘s consider the following very simple form of a layer-wise propagation rule: $ f(H^{(l)}, A) =  σ(AH^{(l)}W^{(l)}) $, where **$W^{(l)}$** is a weight matrix for the **l-th** neural network layer and **$σ(⋅)$** is a non-linear activation function like the **ReLU**. 
 
 However, this simple model has 2 limitations:
 - multiplication with **A** means that, for every node, we sum up all the feature vectors of all neighboring nodes but not the node itself (unless there are self-loops in the graph).
@@ -42,9 +42,9 @@ However, this simple model has 2 limitations:
 ### Solutions
 
 To solve the limitations, we essentially get the propagation rule introduced in [Kipf & Welling (ICLR 2017)](https://arxiv.org/pdf/1609.02907.pdf):
-$$ \f(H^(l), A) =  σ(hat{D}^frac{-1}{2} hat{A} hat{d}^frac{-1}{2}H^(l)W^(l)) $$
+$$ f(H^{(l)}, A) =  σ(\hat{D}^{\frac{-1}{2}} \hat{A} \hat{d}^{\frac{-1}{2}}H^{(l)}W^{(l)}) $$
 - here use $ \hat{A} = A + I $, which is the adjacency matrix of the undirected graph **G** with added self-connections. 
-- to normalizing **A**, we use a symmetric normalization, i.e. D^frac{-1}{2} A D^frac{-1}{2}                (where **D** is the diagonal node degree matrix of **A**)
+- to normalizing **A**, we use a symmetric normalization, i.e. $$D^{\frac{-1}{2}} A D^{\frac{-1}{2}}$$                (where **D** is the diagonal node degree matrix of **A**)
 
 ## Model 
 
@@ -52,13 +52,13 @@ $$ \f(H^(l), A) =  σ(hat{D}^frac{-1}{2} hat{A} hat{d}^frac{-1}{2}H^(l)W^(l)) $$
 > This part is summarized from the paper: Few-shot Learning With Graph Neural Networks
 
 
-In this model, the input **T** contains a collection of images, both labeled and unlabeled, and they associate **T** with a fully-connected graph **G = (V,E)** where nodes **v** correspond to the images present in **T** (both labeled and unlabeled).
+In this model, the input **T** contains a collection of images, both labeled and unlabeled, and they associate **T** with a fully-connected graph **$G = (V,E)$** where nodes **v** correspond to the images present in **T** (both labeled and unlabeled).
 ![graphNN](images/GraphNN/Model.jpg)
 
-For images xi with known label **l_i** , the one-hot encoding of the label is concatenated with the embedding features of the image at the input of the GNN.
+For images xi with known label **$l_i$** , the one-hot encoding of the label is concatenated with the embedding features of the image at the input of the GNN.
 ![graphNN](images/GraphNN/xi.jpg)
 - where 𝟇 is a convolutional neural network
-- **h(l)** is a one-hot encoding of the label
+- **$h(l)$** is a one-hot encoding of the label
 
 Inspired by message-passing algorithms(Kearnes et al.(2016); Gilmer et al. (2017)), they generalized the GNN to learn edge features **A(k)**  from the current node hidden representation:
 ![graphNN](images/GraphNN/node.jpg)
