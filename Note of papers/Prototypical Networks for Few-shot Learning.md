@@ -7,7 +7,7 @@
 - Classification is then performed for an embedded query point by simply finding the nearest class prototype. 
 ![few-shot](images/PrototypicalNN/few-shot.png)
 
-Few-shot prototypes ck are computed as the mean of embedded support examples for each class. 
+Few-shot prototypes $c_k$ are computed as the mean of embedded support examples for each class. 
 
 ## Prototypical networks in the zero-shot
 They follow the same approach to tackle zero-shot learning:
@@ -16,9 +16,9 @@ They follow the same approach to tackle zero-shot learning:
 - classification is performed, as in the few-shot scenario, by finding the nearest class prototype for an embedded query point. 
 
 ### Detail 
-- Zero-shot learning differs from few-shot learning in that instead of being given a support set of training points, we are given a class meta-data vector vk for each class, which could be determined in advance, or could be learned from raw text (this method is from paper: Zero-shot learning using purely textual descriptions).
-- They simply define ck = g(vk)  to be a separate embedding of the meta-data vector. 
-- Since the meta-data vector and query point come from different input domains, they found it was helpful empirically to fix the prototype embedding g to have unit length, however they do not constrain the query embedding f.
+- Zero-shot learning differs from few-shot learning in that instead of being given a support set of training points, we are given a class meta-data vector $v_k$ for each class, which could be determined in advance, or could be learned from raw text (this method is from paper: Zero-shot learning using purely textual descriptions).
+- They simply define $c_k = g(v_k)$  to be a separate embedding of the meta-data vector. 
+- Since the meta-data vector and query point come from different input domains, they found it was helpful empirically to fix the prototype embedding g to have unit length, however they do not constrain the query embedding $f$.
 ![zero-shot](images/PrototypicalNN/zero-shot.png)
 
 Zero-shot prototypes ck are produced by embedding class meta-data vk.
