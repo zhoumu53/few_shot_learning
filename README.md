@@ -38,6 +38,9 @@ Some papers from Google DeepMind, should read in the order.
 #### Related articles: 
 - [x] [GRAPH CONVOLUTIONAL NETWORKS](https://tkipf.github.io/graph-convolutional-networks/)
 
+### Relation Network
+- [x] [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/pdf/1711.06025.pdf)
+
 ### Others
 - [ ] [Feature Generating Networks for Zero-ShsoetenLearning](https://arxiv.org/pdf/1712.00981.pdf) 
 - [x] [Large Margin Few-Shot Learning](https://arxiv.org/pdf/1807.02872.pdf)
@@ -76,8 +79,6 @@ This article introduced the meta-learning by animation clearly, one of the best 
 ```
 - [x] [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
 
-- [ ][Learning to Compare: Relation Network for Few-Shot Learning(CVPR 2018)](https://arxiv.org/pdf/1711.06025.pdf)
-
 # Generative and augmentation-based approaches
 ```
 It's a new paper from NIPS 2018, by IBM research AI.
@@ -85,4 +86,4 @@ It's a new paper from NIPS 2018, by IBM research AI.
 - [x] [∆-encoder: an effective sample synthesis method for few-shot object recognition](https://arxiv.org/pdf/1806.04734.pdf)
 - [x] [MetaGAN: An Adversarial Approach to Few-Shot Learning](http://www.cse.ust.hk/~yqsong/papers/2018-NIPS-MetaGAN-long.pdf)
     - It's better to read the paper about MAML, Relation Network, DAGAN before.
-- [ ][Data Agumentation Generative Adversarial Networks](https://openreview.net/pdf?id=S1Auv-WRZ)
+- [ ] [Data Agumentation Generative Adversarial Networks](https://openreview.net/pdf?id=S1Auv-WRZ)
