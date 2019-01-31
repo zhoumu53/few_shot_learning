@@ -60,6 +60,8 @@ Some papers from Google DeepMind, should read in the order.
 # Meta-Learning(learning to learn) based approaches
 ```
 These are the methods based on meta learning for few-shot learning.
+
+The most popular two are MAML and Reptile.
 ```
 ## Papers
 - [x] [On First-Order Meta-Learning Algorithms](https://arxiv.org/pdf/1803.02999.pdf)
@@ -78,6 +80,11 @@ This is the overview of learning to learn written by berkeley AI research.
 This article introduced the meta-learning by animation clearly, one of the best explaination of meta-learning I think.
 ```
 - [x] [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
+```
+This article explain the Reptile, which is from the paper: On First-Order Meta-Learning Algorithms.
+```
+- [x] [Reptile: A Scalable Meta-Learning Algorithm](https://blog.openai.com/reptile/)
+
 
 # Generative and augmentation-based approaches
 ```
